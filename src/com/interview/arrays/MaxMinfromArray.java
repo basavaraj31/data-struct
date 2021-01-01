@@ -4,9 +4,11 @@ import java.util.Arrays;
 
 /**
  * Java program to find largest and smallest number from an array in Java. * You
- * cannot use any library method both from Java and third-party library. * Hint
- * 1. assign largest value to Intger.MIN_VALUE 2. assign smallest value to
- * Intger.MAX_VALUE
+ * cannot use any library method both from Java and third-party library. * 
+ * Hint
+ * 		1. assign largest value to Intger.MIN_VALUE 
+ * 		2. assign smallest value to Intger.MAX_VALUE
+ *      3. loop over the array and compare item with largest and smallest and reassing it based on condition
  */
 
 public class MaxMinfromArray {

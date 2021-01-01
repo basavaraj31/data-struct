@@ -5,7 +5,9 @@ import java.util.Arrays;
 /**
  * Java Program to find all pairs on integer array whose sum is equal to k
  * 
- * @author hp hint 1. sort the array 2. add left and right item if sum equal
+ * @author basavaraj
+ *    hint 1. sort the array 
+ * 		   2. add left and right item if sum equal
  *         print and increse left index and decrese right index 3. if sum is
  *         less than K then increse left index 4. if sum is greater than K then
  *         decrese right index
@@ -14,21 +16,17 @@ import java.util.Arrays;
 
 public class ArrayProblemOne {
 
-	
 	public static void main(String args[]) {
 		prettyPrint(new int[] { 12, 14, 17, 15, 19, 20, -11 }, 9);
 		prettyPrint(new int[] { 2, 4, 7, 5, 9, 10, -1 }, 9);
 	}
 
-		
 	public static void prettyPrint(int[] random, int k) {
 		System.out.println("input int array : " + Arrays.toString(random));
 		System.out.println("All pairs in an array of integers whose sum is equal to a given value " + k);
 		printpairNumbers(random, k);
 	}
 
-	
-		
 	public static void printpairNumbers(int arr[], int k) {
 
 		if (arr.length <= 2)
@@ -58,21 +56,5 @@ public class ArrayProblemOne {
 		}
 
 	}
-	
-	
-	
-	 public int[] twoSum(int[] nums, int target) {
-		
-		 int[] num = new int [2];
-		 
-		 
-		 for(int ch : nums) {
-			 
-		//	 x = ch
-			 
-		 }
-		 
-		 return nums;
-	        
-	    }
+
 }
