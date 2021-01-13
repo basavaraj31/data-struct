@@ -10,7 +10,7 @@ import java.util.Arrays;
  * 		1. sort the array  
  * 		2. get first element to varible prev and loop the array from index 1
  *      3. start compare prev element with index 1 if not match then add it to new array 
- *      	if not matched then reassign the prev to current array element
+ *      4. reassign the prev to current array element
  *
  */
 public class RemoveDuplicatesFromArray {
